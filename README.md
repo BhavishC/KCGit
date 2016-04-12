@@ -25,4 +25,9 @@ commits que contiene la rama master se trata de un merge Fast Foward, lo que
 supone que no haya conflictos. De hecho, al hacer merge indica que estamos
 `up-to-date`.
 
-
+#Pregunta 4: El merge del paso 19, ¿Causó algún conflicto? ¿Por qué?
+Al haber modificado el mismo archivo en las mismas líneas en dos ramas 
+distintas al intentar hacer el merge, sí que hay conflictos ya que gitno sabe
+que versión queremos (os si queremos una versión combinada). Por ello, antes
+de finalizar el merge nos indica que debemos solucionar lso conflictos y hacer
+un commit para que finalice el merge.
