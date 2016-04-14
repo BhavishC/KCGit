@@ -45,3 +45,23 @@ y por tanto con hace git graph hace lo mismo.
 #Pregunta 7: El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?
 Sí podría haber sido fast forward ya que la rama title contenía los commits
 de la rama title formando una lista.
+
+#Pregunta 8: ¿Qué comando o comandos utilizaste en el paso 27?
+Para deshacer el merge sin perder cambios en el working copy utilice el 
+comando `git reset HEAD~1` (en realidad fue HEAD~2 poreque había hecho un 
+commit respondiendo una pregunta), al no ser hard no pierdo los cambios del
+working copy.
+
+#Pregunta 9: ¿Qué comando o comandos utilizaste en el paso 28?
+Para descartar los cambios utilicé el comando `git reset --hard HEAD` que
+resetea el working copy como estaba en el commit actual.
+
+#Pregunta 10: ¿Qué comando o comandos utilizaste en el paso 29?
+Para eliminar la rama title, estando en master, utilice el comando `git branch
+-D title`. La D tiene que ser mayúscula porque al ser una rama que contiene 
+cambios que se pueden perder git pide con la D mayúscula un git forzado.
+
+#Pregunta 11 ¿Qué comando o comandos utilizaste en el paso 30?
+Para rehacer el merge se utilicé el comando `git reflog`para localizar el 
+commit donde se realizó el merge y el comando `git reset --hard idcommit`para 
+recuperar el estado del working copy en ese punto. 
