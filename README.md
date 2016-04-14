@@ -31,3 +31,7 @@ distintas al intentar hacer el merge, sí que hay conflictos ya que gitno sabe
 que versión queremos (os si queremos una versión combinada). Por ello, antes
 de finalizar el merge nos indica que debemos solucionar lso conflictos y hacer
 un commit para que finalice el merge.
+
+#Pregunta 5: El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?
+No ha causado ningún conflicto ya que ha sido un merge de tipo fast forward,  
+en la que una de las ramas ya contenía los commits de la otra.
