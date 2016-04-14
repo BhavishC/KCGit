@@ -41,3 +41,7 @@ En relidad el comando es `git log --graph --decorate --pretty=oneline` (con
 git log --graph valdría), sin embargo yo me he creado primero un alias con el
 comando git config --global alias.graph "log --graph --decorate --pretty=oneline"
 y por tanto con hace git graph hace lo mismo.
+
+#Pregunta 7: El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?
+Sí podría haber sido fast forward ya que la rama title contenía los commits
+de la rama title formando una lista.
