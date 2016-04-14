@@ -61,7 +61,17 @@ Para eliminar la rama title, estando en master, utilice el comando `git branch
 -D title`. La D tiene que ser mayúscula porque al ser una rama que contiene 
 cambios que se pueden perder git pide con la D mayúscula un git forzado.
 
-#Pregunta 11 ¿Qué comando o comandos utilizaste en el paso 30?
+#Pregunta 11: ¿Qué comando o comandos utilizaste en el paso 30?
 Para rehacer el merge se utilicé el comando `git reflog`para localizar el 
 commit donde se realizó el merge y el comando `git reset --hard idcommit`para 
 recuperar el estado del working copy en ese punto. 
+
+#Pregunta 12:¿Qué comando o comandos utilizaste en el paso 32?
+Primero utilicé el comando `git log` para localizar el primer commit, una vez que 
+obtuve su id utilicé el comando `git reset idcommit`.
+
+#Pregunta 13:¿Qué comando o comandos utilizaste en el paso 33?
+Con el comando `git reflog localicé el id del ultimo commit y seguidamente hice un
+`git reset idcommit`.
+
+Nota: El tag title lo sitúe en el ultimo commit a propósito. 
