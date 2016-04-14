@@ -35,3 +35,9 @@ un commit para que finalice el merge.
 #Pregunta 5: El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?
 No ha causado ningún conflicto ya que ha sido un merge de tipo fast forward,  
 en la que una de las ramas ya contenía los commits de la otra.
+
+#Pregunta 6: ¿Qué comando o comandos utilizaste en el paso 25?
+En relidad el comando es `git log --graph --decorate --pretty=oneline` (con
+git log --graph valdría), sin embargo yo me he creado primero un alias con el
+comando git config --global alias.graph "log --graph --decorate --pretty=oneline"
+y por tanto con hace git graph hace lo mismo.
